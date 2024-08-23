@@ -1,0 +1,14 @@
+* entrar na página https://nodered.org/
+
+** abra o terminal e digite o comando sudo docker search node-red para que o docker busque no repo da nodered a imagem, copie o nome da imagem desejada no cao a escolhida foi essa: nodered/node-red  
+após copiar digite o comando sudo docker pull nodered/node-red  
+
+* crie o container : sudo docker run -d --name nodered -p 1880:1880 nodered/node-red
+
+* abra o terminal e execute o docker para poder rodar o nodered executar o comando: sudo docker run -it -p 1880:1880 --name mynodered nodered/node-red-docker
+
+
+*
+
+
+*
